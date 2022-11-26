@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binário</title>
+
+    <link rel="icon" href="img/iconlogo.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="fadeIn">
+    <nav>
+        <div class="container">
+            <h1>
+                <a href="index.html">
+                    <img src="img/404.gif" width="230px">
+                </a>
+            </h1>
+            <ul>
+                <li><a href="binário.html" id="objeto-a-flutuar">Conversão Binária</a></li>
+                <li><a href="octal.html" id="objeto-a-flutuar">Conversão Octal</a></li>
+                <li><a href="quiz.html" id="objeto-a-flutuar">Quiz...</a></li>
+                <li><a href="home.html" id="objeto-a-flutuar">Home</a></li>
+                <li><button id="botaob" onclick="fontmais()">A+</button></li>
+                <li><button id="botaobb" onclick="fontmenos()">A-</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="convletra">
+        <div class="container clearfix">
+            <div class="col-6">
+                <h1>Conversão Binário em valor Decimal</h1>
+                        <br>
+                        <br>
+                    <input id="ty1" value ="" type="text" placeholder="Valor Binário" required/>
+                        <br>
+                        <br>
+                    <button onClick="convertBinarioDecimal()" type="submit" id="botao">Converter</button>
+                        <br>
+                        <br>
+                    <input id="ty2" placeholder="Resultado"/>
+
+                    <br><br>
+
+                    <a href="decimalb.html"><img src="img/TRADEDB.png" width="45%"></a> 
+
+                    <br>
+                    <br>
+            </div>
+            <div class="col-6">
+                <img src="img/imgbinary.jpg" width="580px" height="400px">
+            </div>
+        </div>
+    </div>
+
+    <div class="curiosidades">
+        <div class="container clearfix">
+            <div class="col-12">
+                <h1>Conversão Binária</h1>
+                
+                <br>
+
+                <hr/>
+
+                <br>
+
+                <p>Os computadores só trabalham com números binários, por exemplo, a gravação de um CD ou um DVD se faz marcando um ponto branco ou um ponto preto ("queimado").<br><br> O ponto branco é definido como 0, e o queimado como 1. Todos os dados contidos num DVD podem ser reduzidos à 0 e 1!...</p>
+
+                <p>Nosso sistema numérico é decimal, usa 10 algarismos (de 0 a 9) e é posicional. Isso quer dizer que o valor de um número depende da sua posição na hora de escrever.<br><br> Veja o exemplo do número 123, na verdade ele significa:...</p>
+
+                <img src="img/n1.png">
+
+                <br>
+
+                <p>Conforme a posição do número ela representa a centena, a dezena ou a unidade, logo:</p>
+
+                <img src="img/n2.png">
+
+                <br>
+
+                <p>Vamos agora transformar o número binário 100111 em decimal, usando o método acima:</p>
+                
+                <img src="img/nj3.png">
+
+                <br>
+
+                <p>Fazendo as contas:</p>
+
+                <img src="img/n4.png">
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

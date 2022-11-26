@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="icon" href="img/iconlogo.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fadeIn">
+    <nav>
+        <div class="container">
+            <h1>
+                <a href="index.html">
+                    <img src="img/404.gif" width="230px" alt="logo 404 gif">
+                </a>
+            </h1>
+            <ul>
+                <li><a href="binário.html" id="objeto-a-flutuar">Conversão Binária</a></li>
+                <li><a href="octal.html" id="objeto-a-flutuar">Conversão Octal</a></li>
+                <li><a href="quiz.html" id="objeto-a-flutuar">Quiz...</a></li>
+                <li><a href="home.html" id="objeto-a-flutuar">Home</a></li>
+                <li><button id="botaob" onclick="fontmais()">A+</button></li>
+                <li><button id="botaobb" onclick="fontmenos()">A-</button></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    
+    <div class="convletra">
+        <div class="container clearfix">
+            <div class="col-6">
+                <h1>Conversão letras em valor Binário</h1>
+                        <br>
+                        <br>
+                    <input id="ti1" value ="" type="text" placeholder="Seu nome" required/>
+                        <br>
+                        <br>
+                    <button onClick="convert();" type="submit" id="botao">Converter</button>
+                        <br>
+                        <br>
+                    <input id="ti2" placeholder="Resultado"/>
+
+                    <br>
+                    <br>
+
+                    <a href="https://www.youtube.com/watch?v=-qw2bsA099E"><img src="img/mylogo.png" width="100px" alt="logo secreta..."></a>
+            </div>
+            <div class="col-6">
+                <img src="img/binary.gif" width="580px" alt="Gif sobre números binários">
+            </div>
+        </div>
+    </div>
+
+    <div class="curiosidades">
+        <div class="container clearfix">
+            <div class="col-12">
+                <h1>Fatos e Curiosidades</h1>
+                
+                <br>
+
+                <hr/>
+
+                <br>
+
+                <p>Os números binários formam um sistema matemático usado por computadores para criar informações. Em resumo, esse sistema é composto por uma base de apenas dois algarismos: 0 e 1.
+                    <br>
+                    <br>
+                    Portanto, são formadas sequências e, a partir delas, são formadas letras, palavras, textos, cálculos. Dessa forma, um número binário nada mais é do que uma representação alternativa de outro número.
+                    <br>
+                    <br>
+                    Bem nós temos outros tipos de sistemas numéricos, como por exemplo o nosso grande e conhecido Hexadecimal que ultiliza seus 16 algarismos, o octal que há seus 8 algarismos, o nome já entrega não é mesmo? E por fim o decimal com 10 algarismos. O sistema binário é o sistema mais utilizado por computadores e restantes aparelhos similares, isto porque os sistemas digitais trabalham internamente com dois estados (verdadeiro ou falso, ligado ou desligado)
+                    <br>
+                    <br>
+                    Vamos ver agora o sistema de numeração binária e os sistemas de computadores.</p>
+
+                    <table id="t1">
+                        <tbody>
+                            <td>
+                                <tr id="topin">
+                                    <th>Nome</th>
+                                    <th>Símbolo</th>
+                                    <th>Múltilpo</th>
+                                </tr>
+                                <tr>
+                                    <td>Bit</td>
+                                    <td>b</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Quilobit</td>
+                                    <td>Kb</td>
+                                    <td>103</td>
+                                </tr>
+                                <tr>
+                                    <td>Megabit</td>
+                                    <td>Mb</td>
+                                    <td>106</td>
+                                </tr>
+                                <tr>
+                                    <td>Gigabit</td>
+                                    <td>Gb</td>
+                                    <td>109</td>
+                                </tr>
+                                <tr>
+                                    <td>Terabit</td>
+                                    <td>Tb</td>
+                                    <td>1012</td>
+                                </tr>
+                                <tr>
+                                    <td>Petabit</td>
+                                    <td>Pb</td>
+                                    <td>1015</td>
+                                </tr>
+                                <tr>
+                                    <td>Exabit</td>
+                                    <td>Eb</td>
+                                    <td>1018</td>
+                                </tr>
+                                <tr>
+                                    <td>Zettabit</td>
+                                    <td>Zb</td>
+                                    <td>1021</td>
+                                </tr>
+                                <tr>
+                                    <td>Yottabit</td>
+                                    <td>Yb</td>
+                                    <td>1024</td>
+                                </tr>
+                            </td>   
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Instituto Federal de Educação Ciência e Tecnologia Catarinense - Campus Videira<br>
+                <br>
+            Rodovia SC 135, km 125 - Bairro Campo Experimental - CEP 89564-590 - Videira - SC - Fone: (49) 3533-4900</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
